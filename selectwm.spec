@@ -21,14 +21,15 @@ selectwm is a simple but robust program that will let you pick a
 window manager (or other executable) to run at X startup, and
 optionally after a window manager exits. It uses the GTK+ toolkit, and
 includes options like a timer to start the default window manager, and
-modification of the window manager list from within %{name}.
+modification of the window manager list from within selectwm.
 
 %description -l pl
 selectwm to prosty, ale u¿yteczny program, który pozwala wybraæ
-menad¿era okien (lub inny program) do uruchomienia przy starcie X oraz
-opcjonalnie po zakoñczeniu menad¿era okien. U¿ywa toolkitu GTK+ i ma
-takie opcje, jak czas po którym uruchamia domy¶lnego menad¿era oraz
-modyfikowanie listy zarz±dców okien z programu.
+zarz±dcê okien (lub inny program) do uruchomienia przy starcie X oraz
+opcjonalnie po zakoñczeniu dzia³ania zarz±dcy okien. U¿ywa biblioteki
+narzêdziowej GTK+ i ma takie opcje, jak czas po którym uruchamia
+domy¶lnego zarz±dcê okien oraz modyfikowanie listy zarz±dców okien z
+programu.
 
 %prep
 %setup -q
