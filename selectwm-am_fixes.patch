@@ -1,10 +1,10 @@
---- selectwm-0.4/src/Makefile.am~	Sat Sep 28 18:07:27 2002
-+++ selectwm-0.4/src/Makefile.am	Sat Sep 28 18:07:27 2002
+--- src/Makefile.am	2004-04-21 21:07:04.000000000 +0200
++++ src/Makefile.am.new	2004-08-25 11:22:28.950974576 +0200
 @@ -10,5 +10,5 @@
  	modify.c modify.h \
  	misc.h define.h
  
 -LIBS = @GTK_LIBS@
--CFLAGS = -s -O2 -Wall @GTK_CFLAGS@ -DLOCALEDIR=\"$(datadir)/locale\"
+-AM_CFLAGS = -s -O2 -Wall @GTK_CFLAGS@ -DLOCALEDIR=\"$(datadir)/locale\"
 +LIBS = $(GTK_LIBS)
 +AM_CFLAGS = $(GTK_CFLAGS) -DLOCALEDIR=\"$(datadir)/locale\"
