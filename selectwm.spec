@@ -6,6 +6,7 @@ Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://ordiluc.net/selectwm/%{name}-%{version}.tar.bz2
+# Source0-md5:	2756cfe74a1fe062301aa6a630d47852
 Patch0:		%{name}-am_fixes.patch
 URL:		http://ordiluc.net/selectwm/
 BuildRequires:	autoconf
