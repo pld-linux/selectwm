@@ -9,12 +9,12 @@ Source0:	http://ordiluc.net/selectwm/%{name}-%{version}.tar.bz2
 # Source0-md5:	160199961c552922b5880ebf7e201c3c
 Patch0:		%{name}-am_fixes.patch
 URL:		http://ordiluc.net/selectwm/
-BuildRequires:	pkgconfig
-BuildRequires:  glib2 >= 2.0.0
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	gettext-devel
+BuildRequires:	glib2-devel >= 2.0.0
 BuildRequires:	gtk+2-devel >= 2.0.0
+BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
