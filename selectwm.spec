@@ -2,18 +2,18 @@ Summary:	selectwm, select a window manager at X startup
 Summary(pl):	selectwm - wybór zarz±dcy okien przy starcie X
 Name:		selectwm
 Version:	0.4
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://ordiluc.net/selectwm/%{name}-%{version}.tar.bz2
 # Source0-md5:	2756cfe74a1fe062301aa6a630d47852
 Patch0:		%{name}-am_fixes.patch
 URL:		http://ordiluc.net/selectwm/
-BuildRequires:	autoconf
+BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
-BuildRequires:	gtk+2-devel
+BuildRequires:	gettext-devel
+BuildRequires:	gtk+2-devel >= 2.0.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 selectwm is a simple but robust program that will let you pick a
@@ -35,9 +35,10 @@ programu.
 %patch0 -p1
 
 %build
-rm -f missing
+%{__gettextize}
 %{__aclocal}
 %{__autoconf}
+%{__autoheader}
 %{__automake}
 %configure
 %{__make}
@@ -45,7 +46,8 @@ rm -f missing
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %find_lang %{name}
 
