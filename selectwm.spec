@@ -7,10 +7,10 @@ URL:		http://ordiluc.net/selectwm
 Group:		X11/Applications
 BuildRequires:	gtk+2-devel
 Source0:	%{name}-%{version}.tar.gz
-BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define         _prefix         /usr/X11R6
-%define         _mandir         %{_prefix}/man
+%define		_prefix		/usr/X11R6
+%define		_mandir		%{_prefix}/man
 
 %description
 selectwm is a simple but robust program that will let you pick a
