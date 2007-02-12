@@ -1,5 +1,5 @@
 Summary:	selectwm, select a window manager at X startup
-Summary(pl):	selectwm - wybór zarz±dcy okien przy starcie X
+Summary(pl.UTF-8):   selectwm - wybÃ³r zarzÄ…dcy okien przy starcie X
 Name:		selectwm
 Version:	0.4.1
 Release:	1
@@ -24,12 +24,12 @@ optionally after a window manager exits. It uses the GTK+ toolkit, and
 includes options like a timer to start the default window manager, and
 modification of the window manager list from within selectwm.
 
-%description -l pl
-selectwm to prosty, ale u¿yteczny program, który pozwala wybraæ
-zarz±dcê okien (lub inny program) do uruchomienia przy starcie X oraz
-opcjonalnie po zakoñczeniu dzia³ania zarz±dcy okien. U¿ywa biblioteki
-narzêdziowej GTK+ i ma takie opcje, jak czas po którym uruchamia
-domy¶lnego zarz±dcê okien oraz modyfikowanie listy zarz±dców okien z
+%description -l pl.UTF-8
+selectwm to prosty, ale uÅ¼yteczny program, ktÃ³ry pozwala wybraÄ‡
+zarzÄ…dcÄ™ okien (lub inny program) do uruchomienia przy starcie X oraz
+opcjonalnie po zakoÅ„czeniu dziaÅ‚ania zarzÄ…dcy okien. UÅ¼ywa biblioteki
+narzÄ™dziowej GTK+ i ma takie opcje, jak czas po ktÃ³rym uruchamia
+domyÅ›lnego zarzÄ…dcÄ™ okien oraz modyfikowanie listy zarzÄ…dcÃ³w okien z
 programu.
 
 %prep
