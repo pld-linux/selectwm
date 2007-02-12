@@ -1,5 +1,5 @@
 Summary:	selectwm, select a window manager at X startup
-Summary(pl.UTF-8):   selectwm - wybór zarządcy okien przy starcie X
+Summary(pl.UTF-8):	selectwm - wybór zarządcy okien przy starcie X
 Name:		selectwm
 Version:	0.4.1
 Release:	1
