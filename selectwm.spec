@@ -11,7 +11,7 @@ Patch0:		%{name}-am_fixes.patch
 URL:		http://ordiluc.net/selectwm/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	glib2-devel >= 2.0.0
 BuildRequires:	gtk+2-devel >= 1:2.0.0
 BuildRequires:	pkgconfig
